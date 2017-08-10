@@ -58,7 +58,7 @@
 
          SongPlayer.currentTime = null;
 
-         SongPlayer.volume = null;
+         SongPlayer.volume = 80;
 
          SongPlayer.play = function(song) {
            song = song || SongPlayer.currentSong;
